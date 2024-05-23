@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7C5531E4-75A3-4CA5-9151-ACBC9C438A6D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Project.GUI</RootNamespace>
+    <AssemblyName>Project.GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CheckOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckOut.Designer.cs">
+      <DependentUpon>CheckOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllAdmins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllAdmins.Designer.cs">
+      <DependentUpon>AllAdmins.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayCart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisplayCart.Designer.cs">
+      <DependentUpon>DisplayCart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserMenu.Designer.cs">
+      <DependentUpon>UserMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisplayMenu.Designer.cs">
+      <DependentUpon>DisplayMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddingItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddingItem.Designer.cs">
+      <DependentUpon>AddingItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GivingRating.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GivingRating.Designer.cs">
+      <DependentUpon>GivingRating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllUsers.Designer.cs">
+      <DependentUpon>AllUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuform.Designer.cs">
+      <DependentUpon>menuform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserFunctionalities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserFunctionalities.Designer.cs">
+      <DependentUpon>UserFunctionalities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFuctionalities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFuctionalities.Designer.cs">
+      <DependentUpon>AdminFuctionalities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BL\AdminLoginBL.cs" />
+    <Compile Include="BL\GivenRatingBL.cs" />
+    <Compile Include="BL\LoginBL.cs" />
+    <Compile Include="BL\OrderedProduct.cs" />
+    <Compile Include="BL\ProductBL.cs" />
+    <Compile Include="BL\UserLoginBL.cs" />
+    <Compile Include="DL\AdminLoginDL.cs" />
+    <Compile Include="DL\BeverageDiscount.cs" />
+    <Compile Include="DL\DiscountDL.cs" />
+    <Compile Include="DL\FoodDiscount.cs" />
+    <Compile Include="DL\GivenRatingDL.cs" />
+    <Compile Include="DL\MenuDL.cs" />
+    <Compile Include="DL\OrderedProductDL.cs" />
+    <Compile Include="DL\Parsing.cs" />
+    <Compile Include="DL\ProductDL.cs" />
+    <Compile Include="DL\UserLoginDL.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AdminLoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLoginPage.Designer.cs">
+      <DependentUpon>AdminLoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminSignUp.Designer.cs">
+      <DependentUpon>AdminSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="finish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="finish.Designer.cs">
+      <DependentUpon>finish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserSignUp.Designer.cs">
+      <DependentUpon>UserSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserLoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserLoginPage.Designer.cs">
+      <DependentUpon>UserLoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="begin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="begin.Designer.cs">
+      <DependentUpon>begin.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CheckOut.resx">
+      <DependentUpon>CheckOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllAdmins.resx">
+      <DependentUpon>AllAdmins.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayCart.resx">
+      <DependentUpon>DisplayCart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserMenu.resx">
+      <DependentUpon>UserMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayMenu.resx">
+      <DependentUpon>DisplayMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddingItem.resx">
+      <DependentUpon>AddingItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GivingRating.resx">
+      <DependentUpon>GivingRating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllUsers.resx">
+      <DependentUpon>AllUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuform.resx">
+      <DependentUpon>menuform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserFunctionalities.resx">
+      <DependentUpon>UserFunctionalities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFuctionalities.resx">
+      <DependentUpon>AdminFuctionalities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLoginPage.resx">
+      <DependentUpon>AdminLoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminSignUp.resx">
+      <DependentUpon>AdminSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finish.resx">
+      <DependentUpon>finish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserSignUp.resx">
+      <DependentUpon>UserSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserLoginPage.resx">
+      <DependentUpon>UserLoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="begin.resx">
+      <DependentUpon>begin.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Media_230623_201707.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20230624_152711.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2833%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-twitter-social-media-round-icon-png-image_6315985.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2832%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook-logo-2019.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gmail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instagram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Final.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lasta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoGreatTasteProducer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reply-message.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reply-message %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dfsafsdf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bags.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bags %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20230624_1527111.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_btn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_btn2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_btn11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopppintCart_Lighticon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

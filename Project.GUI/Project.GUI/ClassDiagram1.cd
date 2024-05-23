@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Project.BL.AdminLoginBL">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>BL\AdminLoginBL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.BL.GivenRatingBL">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAQAAAAEAAAA=</HashCode>
+      <FileName>BL\GivenRatingBL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.BL.LoginBL">
+    <Position X="0.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAACAQAAAgEAAAA=</HashCode>
+      <FileName>BL\LoginBL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.BL.OrderedProduct">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAAAAAAiAAACAA=</HashCode>
+      <FileName>BL\OrderedProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.BL.ProductBL">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAABAAAAAAAACAAAAAgAAAAAAAAAAAIAAAACAA=</HashCode>
+      <FileName>BL\ProductBL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.BL.UserLoginBL">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAEAAAAAAAAgAAACAAAAAgAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>BL\UserLoginBL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.DL.AdminLoginDL">
+    <Position X="0.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAQAAAAAAAAQAAAAAAAAAAAAAAAAAQAAAAAEAA=</HashCode>
+      <FileName>DL\AdminLoginDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.DL.BeverageDiscount">
+    <Position X="5.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>DL\BeverageDiscount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.DL.DiscountDL">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAIAAAAAAAAAAAAAAAAAAAAABAAAAI=</HashCode>
+      <FileName>DL\DiscountDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.DL.FoodDiscount">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>DL\FoodDiscount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.DL.GivenRatingDL">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>DL\GivenRatingDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.DL.MenuDL">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>DL\MenuDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.DL.OrderedProductDL">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DL\OrderedProductDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.DL.ProductDL">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAIAAAAAAABAAAAAAAAIgAQAAAAAAAE=</HashCode>
+      <FileName>DL\ProductDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.DL.Parsing">
+    <Position X="9.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DL\Parsing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.DL.UserLoginDL">
+    <Position X="3" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEBAAAAAAAAAEgAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>DL\UserLoginDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

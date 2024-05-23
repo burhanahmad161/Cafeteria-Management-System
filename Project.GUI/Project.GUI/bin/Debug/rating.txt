@@ -1,0 +1,6 @@
+ALi Baba,4
+burhan,1
+Taha Shahid,4
+Rida Mushtaq,1
+Burhan Ahmad,5
+Nawaz Shreef,4

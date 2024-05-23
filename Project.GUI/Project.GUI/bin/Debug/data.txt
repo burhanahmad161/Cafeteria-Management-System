@@ -1,0 +1,3 @@
+gulaab jamun,50,food
+Strawberry,150,Food
+cake,100,Food
